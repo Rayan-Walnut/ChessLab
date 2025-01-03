@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# README.md
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Cop VO
 
-## Available Scripts
+Ce projet est un site web de voiture créé avec React App, utilisant une API développée en PHP avec Wampserver.
 
-In the project directory, you can run:
+## Table des Matières
 
-### `npm start`
+- [README.md](#readmemd)
+- [Cop VO](#cop-vo)
+  - [Table des Matières](#table-des-matières)
+  - [Présentation](#présentation)
+  - [Fonctionnalités](#fonctionnalités)
+  - [Technologies Utilisées](#technologies-utilisées)
+  - [Installation](#installation)
+  - [Utilisation](#utilisation)
+  - [API](#api)
+  - [Contributeurs](#contributeurs)
+  - [Licence](#licence)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Présentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ce site web permet aux utilisateurs de consulter et de gérer des voitures. Il est développé avec React App pour la partie front-end et utilise une API développée en PHP avec Wampserver pour la partie back-end.
 
-### `npm test`
+## Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Liste des voitures
+* Détails des voitures
+* Ajout de voitures
+* Modification de voitures
+* Suppression de voitures
 
-### `npm run build`
+## Technologies Utilisées
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React App
+* PHP
+* Wampserver
+* API RESTful
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Cloner le dépôt Git
+2. Installer les dépendances avec npm install
+3. Lancer le serveur de développement avec npm start
+4. Configurer l'API en modifiant les fichiers de configuration
 
-### `npm run eject`
+## Utilisation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Se connecter à l'application
+2. Consulter la liste des voitures
+3. Cliquez sur une voiture pour afficher ses détails
+4. Utiliser les boutons pour ajouter, modifier ou supprimer des voitures
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+L'API est développée en PHP avec Wampserver et utilise une architecture RESTful. Les endpoints sont les suivants :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* GET /api/voitures : liste des voitures
+* GET /api/voitures/:id : détails d'une voiture
+* POST /api/voitures : ajout d'une voiture
+* PUT /api/voitures/:id : modification d'une voiture
+* DELETE /api/voitures/:id : suppression d'une voiture
 
-## Learn More
+## Contributeurs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [Votre nom]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licence
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est sous licence MIT. Vous êtes libre de modifier et de distribuer le code source.
