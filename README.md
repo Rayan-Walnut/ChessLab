@@ -41,3 +41,6 @@ Nous sommes une équipe de passionnés d'échecs qui travaillent ensemble pour c
 ## Licence
 
 ChessLab est un projet open source sous licence MIT. Vous êtes libre de modifier et de distribuer notre code source pour créer vos propres applications d'échecs.
+
+# Veille technologique :
+impact de l'ia sur la cybercécuriter

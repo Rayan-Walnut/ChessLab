@@ -197,7 +197,7 @@ const Login = () => {
 
       <footer className="bg-gray-100 py-12 text-gray-600">
         <div className="container mx-auto px-4 text-center text-sm">
-          <p>&copy; 2024 CopVO. Tous droits réservés.</p>
+          <p>&copy; 2024 ChessLab. Tous droits réservés.</p>
         </div>
       </footer>
     </div>

@@ -5,7 +5,7 @@ header("Content-Type: application/json; charset=UTF-8");
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "siv";
+$dbname = "chesslab";
 
 // Connexion à la base de données
 $conn = new mysqli($host, $user, $password, $dbname);

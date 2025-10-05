@@ -5,7 +5,7 @@ const ProfileMenu = ({ email }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLogout = () => {
-    fetch('http://localhost/copvoreact/api/logout.php', {
+    fetch('http://localhost/ChessLab/api/logout.php', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
     })
@@ -64,8 +64,8 @@ const ProfileMenu = ({ email }) => {
               className="flex items-center gap-2 px-3 py-2 rounded-md
                          text-gray-700 hover:bg-gray-50"
             >
-              <Settings className="h-4 w-4" />
-              <span className="text-sm">Paramètres</span>
+              <User className="h-4 w-4" />
+              <span className="text-sm">Profil</span>
             </a>
             
             <div className="h-px bg-gray-100 my-1" />

@@ -59,7 +59,7 @@ const AddVehicleForm = () => {
                 puissanceFiscale: formData.puissanceFiscale ? `${formData.puissanceFiscale} CV` : ''
             };
     
-            const response = await fetch('http://localhost/copvoreact/api/add_vehicule.php', {
+            const response = await fetch('http://localhost/ChessLab/api/add_vehicule.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

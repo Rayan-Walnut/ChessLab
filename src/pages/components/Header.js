@@ -3,6 +3,7 @@ import { Menu, X, User, BookOpen, Phone, Crown, ChevronDown, Trophy, Users, Brai
 import Button from './Button';
 import ProfileMenu from './ProfileMenu';
 import { jwtDecode } from 'jwt-decode';
+import CartIcon from './CartIcon';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,14 +41,15 @@ const Header = () => {
     ];
 
     return (
-        <header className={`fixed top-0 w-full z-50 transition-all duration-300 bg-white ${
-            isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-white'
-        }`}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 bg-white">
+        <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
+                ? 'bg-white shadow-sm'
+                : 'bg-white'
+            }`}>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <nav className="flex items-center justify-between h-20">
                     {/* Logo */}
                     <a href="/" className="flex items-center space-x-2 group">
-                        <div className="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-blue-100 transition-colors duration-200">
+                        <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center group-hover:bg-blue-100 transition-colors duration-200">
                             <Crown className="w-6 h-6 text-blue-500" />
                         </div>
                         <span className="text-xl font-semibold text-gray-800">
@@ -73,7 +75,7 @@ const Header = () => {
                                     )}
                                 </a>
                                 {item.submenu && (
-                                    <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute top-full left-0 w-56 py-2 mt-1 bg-white border border-gray-100 rounded-xl shadow-lg transition-all duration-200">
+                                    <div className="invisible group-hover:visible absolute top-full left-0 w-56 py-2 mt-1 bg-white border border-gray-100 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-all duration-200">
                                         {item.submenu.map((subitem) => (
                                             <a
                                                 key={subitem.name}
@@ -92,12 +94,14 @@ const Header = () => {
 
                     {/* Actions */}
                     <div className="flex items-center space-x-4">
+                        <CartIcon /> {/* Ajoutez l'icône du panier ici */}
+
                         {user ? (
                             <ProfileMenu email={user.email} />
                         ) : (
                             <div className="hidden sm:block">
                                 <a href="/login">
-                                    <Button variant="secondary" className="shadow-sm hover:shadow-md transition-shadow duration-200">
+                                    <Button variant="secondary" className="shadow-sm">
                                         <div className="flex items-center space-x-2">
                                             <User className="w-4 h-4" />
                                             <span>Se connecter</span>
@@ -135,9 +139,8 @@ const Header = () => {
                                         <span className="font-medium">{item.name}</span>
                                     </div>
                                     {item.submenu && (
-                                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${
-                                            activeDropdown === item.name ? 'rotate-180' : ''
-                                        }`} />
+                                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.name ? 'rotate-180' : ''
+                                            }`} />
                                     )}
                                 </button>
                                 {item.submenu && activeDropdown === item.name && (

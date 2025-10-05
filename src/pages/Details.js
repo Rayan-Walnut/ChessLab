@@ -245,7 +245,7 @@ const Details = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-600">
                   <Mail size={20} className="text-gray-400" />
-                  <span>contact@copvo.fr</span>
+                  <span>contact@ChessLab.fr</span>
                 </div>
               </div>
             </Card>
@@ -286,7 +286,7 @@ const Details = () => {
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">À propos</h3>
               <p className="text-sm">
-                CopVO est votre partenaire de confiance pour l&apos;achat de véhicules d&apos;occasion premium.
+                ChessLab est votre partenaire de confiance pour l&apos;achat de véhicules d&apos;occasion premium.
               </p>
             </div>
             <div>
@@ -302,7 +302,7 @@ const Details = () => {
               <h3 className="text-xl font-bold text-gray-900 mb-4">Contact</h3>
               <ul className="space-y-2 text-sm">
                 <li>+33 1 23 45 67 89</li>
-                <li>contact@copvo.fr</li>
+                <li>contact@ChessLab.fr</li>
                 <li>Paris, France</li>
               </ul>
             </div>
@@ -322,7 +322,7 @@ const Details = () => {
             </div>
           </div>
           <div className="border-t border-gray-200 pt-8 mt-8 text-center text-sm">
-            <p>&copy; 2024 CopVO. Tous droits réservés.</p>
+            <p>&copy; 2024 ChessLab. Tous droits réservés.</p>
             <div className="flex justify-center gap-6 mt-4">
               <a href="#test" className="hover:text-gray-600 transition-colors">Mentions légales</a>
               <a href="#test" className="hover:text-gray-600 transition-colors">Politique de confidentialité</a>

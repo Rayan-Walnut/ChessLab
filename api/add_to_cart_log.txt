@@ -1,0 +1,410 @@
+2025-03-25 08:28:47 - Démarrage de la requête
+2025-03-25 08:28:47 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:28:47 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTA0MSwiZXhwIjoxNzQyODk0NjQxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.X9EuaHJhLYoOKbuG5e89ZOEODFwBOzyy-0QXZGhJ22Q
+2025-03-25 08:28:47 - ID utilisateur utilisé: 2
+2025-03-25 08:28:47 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:28:47 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:28:47 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '2'
+2025-03-25 08:28:47 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('2', '2', '1')
+2025-03-25 08:28:47 - Succès: Élément ajouté au panier
+2025-03-25 08:29:19 - Démarrage de la requête
+2025-03-25 08:29:19 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:29:19 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTA0MSwiZXhwIjoxNzQyODk0NjQxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.X9EuaHJhLYoOKbuG5e89ZOEODFwBOzyy-0QXZGhJ22Q
+2025-03-25 08:29:19 - ID utilisateur utilisé: 2
+2025-03-25 08:29:19 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:29:19 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:29:19 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '2'
+2025-03-25 08:29:19 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '13'
+2025-03-25 08:29:19 - Succès: Quantité mise à jour
+2025-03-25 08:31:26 - Démarrage de la requête
+2025-03-25 08:31:26 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:31:26 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTQ3OSwiZXhwIjoxNzQyODk1MDc5LCJ1c2VyX2lkIjoiNyIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jIn0.2ZhWLu5NuBFIOuiBPoeAXiTjwiBLS8yxJLq25Num1xU
+2025-03-25 08:31:26 - ID utilisateur utilisé: 2
+2025-03-25 08:31:26 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:31:26 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:31:26 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '2'
+2025-03-25 08:31:26 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '13'
+2025-03-25 08:31:26 - Succès: Quantité mise à jour
+2025-03-25 08:32:22 - Démarrage de la requête
+2025-03-25 08:32:22 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:32:22 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTUyOSwiZXhwIjoxNzQyODk1MTI5LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.xCnNwkUOqk_VYxVDbZNn-CahHfr_BR-x4YGdYGPfgFc
+2025-03-25 08:32:22 - ID utilisateur utilisé: 2
+2025-03-25 08:32:22 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:32:22 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:32:22 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '2'
+2025-03-25 08:32:22 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '13'
+2025-03-25 08:32:22 - Succès: Quantité mise à jour
+2025-03-25 08:34:16 - Démarrage de la requête
+2025-03-25 08:34:16 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:34:16 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTUyOSwiZXhwIjoxNzQyODk1MTI5LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.xCnNwkUOqk_VYxVDbZNn-CahHfr_BR-x4YGdYGPfgFc
+2025-03-25 08:34:16 - ID utilisateur utilisé: 2
+2025-03-25 08:34:16 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:34:16 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:34:16 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '2'
+2025-03-25 08:34:16 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '13'
+2025-03-25 08:34:16 - Succès: Quantité mise à jour
+2025-03-25 08:34:52 - Démarrage de la requête
+2025-03-25 08:34:52 - Données reçues: Array
+(
+    [subscription_id] => 3
+)
+
+2025-03-25 08:34:52 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:34:52 - ID utilisateur utilisé: 2
+2025-03-25 08:34:52 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '3'
+2025-03-25 08:34:52 - Données du forfait: Array
+(
+    [id] => 3
+    [price] => 99.99
+)
+
+2025-03-25 08:34:52 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '3'
+2025-03-25 08:34:52 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('2', '3', '1')
+2025-03-25 08:34:52 - Succès: Élément ajouté au panier
+2025-03-25 08:35:47 - Démarrage de la requête
+2025-03-25 08:35:47 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:35:47 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:35:47 - ID utilisateur utilisé: 2
+2025-03-25 08:35:47 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:35:47 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:35:47 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '2' AND subscription_id = '1'
+2025-03-25 08:35:47 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('2', '1', '1')
+2025-03-25 08:35:47 - Succès: Élément ajouté au panier2025-03-25 08:39:06 - Démarrage de la requête
+2025-03-25 08:39:06 - Données reçues: Array
+(
+    [subscription_id] => 3
+)
+
+2025-03-25 08:39:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:39:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:39:06 - ID utilisateur utilisé: 9
+2025-03-25 08:39:06 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '3'
+2025-03-25 08:39:06 - Données du forfait: Array
+(
+    [id] => 3
+    [price] => 99.99
+)
+
+2025-03-25 08:39:06 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '3'
+2025-03-25 08:39:06 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '3', '1')
+2025-03-25 08:39:06 - Succès: Élément ajouté au panier
+2025-03-25 08:39:25 - Démarrage de la requête
+2025-03-25 08:39:25 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:39:25 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:39:25 - Token décodé avec succès, user_id: 9
+2025-03-25 08:39:25 - ID utilisateur utilisé: 9
+2025-03-25 08:39:25 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:39:25 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:39:25 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 08:39:25 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '1', '1')
+2025-03-25 08:39:25 - Succès: Élément ajouté au panier
+2025-03-25 08:43:15 - Démarrage de la requête
+2025-03-25 08:43:15 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:43:15 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:15 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:15 - ID utilisateur utilisé: 9
+2025-03-25 08:43:15 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:43:15 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:43:15 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '2'
+2025-03-25 08:43:15 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '2', '1')
+2025-03-25 08:43:15 - Succès: Élément ajouté au panier
+2025-03-25 08:43:20 - Démarrage de la requête
+2025-03-25 08:43:20 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:43:20 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:20 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:20 - ID utilisateur utilisé: 9
+2025-03-25 08:43:20 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:43:20 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:43:20 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '2'
+2025-03-25 08:43:20 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '18'
+2025-03-25 08:43:20 - Succès: Quantité mise à jour
+2025-03-25 08:46:42 - Démarrage de la requête
+2025-03-25 08:46:42 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:46:42 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:42 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:42 - ID utilisateur utilisé: 9
+2025-03-25 08:46:42 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:46:42 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:46:42 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 08:46:42 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '1', '1')
+2025-03-25 08:46:42 - Succès: Élément ajouté au panier
+2025-03-25 08:47:21 - Démarrage de la requête
+2025-03-25 08:47:21 - Données reçues: Array
+(
+    [subscription_id] => 2
+)
+
+2025-03-25 08:47:21 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:21 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:21 - ID utilisateur utilisé: 9
+2025-03-25 08:47:21 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '2'
+2025-03-25 08:47:21 - Données du forfait: Array
+(
+    [id] => 2
+    [price] => 49.99
+)
+
+2025-03-25 08:47:21 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '2'
+2025-03-25 08:47:21 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '2', '1')
+2025-03-25 08:47:21 - Succès: Élément ajouté au panier
+2025-03-25 08:49:14 - Démarrage de la requête
+2025-03-25 08:49:14 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:49:14 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:14 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:14 - ID utilisateur utilisé: 9
+2025-03-25 08:49:14 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:49:14 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:49:14 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 08:49:14 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '1', '1')
+2025-03-25 08:49:14 - Succès: Élément ajouté au panier
+2025-03-25 08:49:49 - Démarrage de la requête
+2025-03-25 08:49:49 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:49:49 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:49 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:49 - ID utilisateur utilisé: 9
+2025-03-25 08:49:49 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:49:49 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:49:49 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 08:49:49 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '21'
+2025-03-25 08:49:49 - Succès: Quantité mise à jour
+2025-03-25 08:49:55 - Démarrage de la requête
+2025-03-25 08:49:55 - Données reçues: Array
+(
+    [subscription_id] => 3
+)
+
+2025-03-25 08:49:55 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:55 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:55 - ID utilisateur utilisé: 9
+2025-03-25 08:49:55 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '3'
+2025-03-25 08:49:55 - Données du forfait: Array
+(
+    [id] => 3
+    [price] => 99.99
+)
+
+2025-03-25 08:49:55 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '3'
+2025-03-25 08:49:55 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '3', '1')
+2025-03-25 08:49:55 - Succès: Élément ajouté au panier
+2025-03-25 08:50:39 - Démarrage de la requête
+2025-03-25 08:50:39 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 08:50:39 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:39 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:39 - ID utilisateur utilisé: 9
+2025-03-25 08:50:39 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 08:50:39 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 08:50:39 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 08:50:39 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '1', '1')
+2025-03-25 08:50:39 - Succès: Élément ajouté au panier
+2025-03-25 09:08:17 - Démarrage de la requête
+2025-03-25 09:08:17 - Données reçues: Array
+(
+    [subscription_id] => 3
+)
+
+2025-03-25 09:08:17 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:08:17 - Token décodé avec succès, user_id: 9
+2025-03-25 09:08:17 - ID utilisateur utilisé: 9
+2025-03-25 09:08:17 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '3'
+2025-03-25 09:08:17 - Données du forfait: Array
+(
+    [id] => 3
+    [price] => 99.99
+)
+
+2025-03-25 09:08:17 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '3'
+2025-03-25 09:08:17 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '3', '1')
+2025-03-25 09:08:17 - Succès: Élément ajouté au panier
+2025-03-25 09:12:10 - Démarrage de la requête
+2025-03-25 09:12:10 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 09:12:10 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:10 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:10 - ID utilisateur utilisé: 9
+2025-03-25 09:12:10 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 09:12:10 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 09:12:10 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 09:12:10 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '23'
+2025-03-25 09:12:10 - Succès: Quantité mise à jour
+2025-03-25 09:12:30 - Démarrage de la requête
+2025-03-25 09:12:30 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 09:12:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:30 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:30 - ID utilisateur utilisé: 9
+2025-03-25 09:12:30 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 09:12:30 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 09:12:30 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 09:12:30 - Requête mise à jour: UPDATE cart_items SET quantity = '6' WHERE id = '23'
+2025-03-25 09:12:30 - Succès: Quantité mise à jour
+2025-03-25 09:12:51 - Démarrage de la requête
+2025-03-25 09:12:51 - Données reçues: Array
+(
+    [subscription_id] => 3
+)
+
+2025-03-25 09:12:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:51 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:51 - ID utilisateur utilisé: 9
+2025-03-25 09:12:51 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '3'
+2025-03-25 09:12:51 - Données du forfait: Array
+(
+    [id] => 3
+    [price] => 99.99
+)
+
+2025-03-25 09:12:51 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '3'
+2025-03-25 09:12:51 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '24'
+2025-03-25 09:12:51 - Succès: Quantité mise à jour
+2025-03-25 09:43:29 - Démarrage de la requête
+2025-03-25 09:43:29 - Données reçues: Array
+(
+    [subscription_id] => 1
+)
+
+2025-03-25 09:43:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:29 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:29 - ID utilisateur utilisé: 9
+2025-03-25 09:43:29 - Requête vérification forfait: SELECT id, price FROM subscriptions WHERE id = '1'
+2025-03-25 09:43:29 - Données du forfait: Array
+(
+    [id] => 1
+    [price] => 29.99
+)
+
+2025-03-25 09:43:29 - Requête vérification panier: SELECT id, quantity FROM cart_items WHERE user_id = '9' AND subscription_id = '1'
+2025-03-25 09:43:29 - Requête insertion: INSERT INTO cart_items (user_id, subscription_id, quantity) VALUES ('9', '1', '1')
+2025-03-25 09:43:29 - Succès: Élément ajouté au panier

@@ -34,7 +34,7 @@ const EditVehicleForm = ({ vehiculeId, onClose }) => {
     useEffect(() => {
         const fetchVehiculeData = async () => {
             try {
-                const response = await fetch(`http://localhost/copvoreact/api/get_vehicule.php?id=${vehiculeId}`);
+                const response = await fetch(`http://localhost/ChessLab/api/get_vehicule.php?id=${vehiculeId}`);
                 if (!response.ok) throw new Error('Erreur lors de la récupération');
                 const data = await response.json();
                 
@@ -84,7 +84,7 @@ const EditVehicleForm = ({ vehiculeId, onClose }) => {
                 puissanceFiscale: formData.puissanceFiscale ? `${formData.puissanceFiscale}` : ''
             };
 
-            const response = await fetch('http://localhost/copvoreact/api/edit_vehicule.php', {
+            const response = await fetch('http://localhost/ChessLab/api/edit_vehicule.php', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

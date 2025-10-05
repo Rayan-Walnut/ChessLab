@@ -1,160 +1,254 @@
-import { Award, BookOpen, Users, Trophy, Star, Target, Brain } from 'lucide-react';
-import Button from './components/Button';
-import Card from './components/Card';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import CalendarPage from '../components/CalendarPage';
-import PriceCalculator from '../components/PriceCalculator';
+"use client"
+
+import { useEffect, useState } from "react"
+import {
+  Trophy,
+  BookOpen,
+  Target,
+  Brain,
+  CheckCircle,
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Twitter,
+  Instagram,
+  ShoppingCart,
+  CastleIcon,
+  Menu,
+} from "lucide-react"
+import CookieConsent from "react-cookie-consent"
 
 const Home = () => {
+  const [subscriptions, setSubscriptions] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
+  // Simple toast implementation
+  const showToast = (title, message, type = "success") => {
+    // Vous pouvez remplacer ceci par votre propre système de notification
+    alert(`${title}: ${message}`)
+  }
+
+  useEffect(() => {
+    // Vérifier si l'utilisateur est connecté
+    const token = localStorage.getItem("auth")
+    setIsAuthenticated(!!token)
+
+    // Charger les forfaits depuis la base de données
+    const fetchSubscriptions = async () => {
+      try {
+        const response = await fetch("http://localhost/ChessLab/api/get_subscriptions.php")
+        if (!response.ok) {
+          throw new Error("Erreur lors de la récupération des forfaits")
+        }
+        const data = await response.json()
+        if (data.success) {
+          setSubscriptions(data.subscriptions || [])
+        } else {
+          setError(data.message || "Erreur lors du chargement des forfaits")
+        }
+      } catch (err) {
+        setError(err.message || "Erreur de connexion au serveur")
+        console.error("Erreur:", err)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchSubscriptions()
+  }, [])
+
+  const handleAddToCart = async (subscriptionId) => {
+    if (!isAuthenticated) {
+      // Rediriger vers la page de connexion
+      window.location.href = "/login?redirect=" + window.location.pathname
+      return
+    }
+
+    const token = localStorage.getItem("auth")
+    try {
+      const response = await fetch("http://localhost/ChessLab/api/add_to_cart.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ subscription_id: subscriptionId }),
+      })
+
+      const data = await response.json()
+      if (data.success) {
+        showToast("Succès!", "Forfait ajouté au panier!")
+      } else {
+        showToast("Erreur!", data.message || "Erreur lors de l'ajout au panier", "error")
+      }
+    } catch (err) {
+      console.error("Erreur:", err)
+      showToast("Erreur!", "Erreur de connexion au serveur", "error")
+    }
+  }
+
+  // Fallback pour les forfaits si l'API n'est pas disponible
+  const defaultSubscriptions = [
+    {
+      id: 1,
+      name: "Débutant",
+      description: "Pack d'initiation aux échecs",
+      price: "29.99",
+      features: "Cours fondamentaux,Forum communautaire,Exercices basiques",
+    },
+    {
+      id: 2,
+      name: "Intermédiaire",
+      description: "Pour les joueurs qui veulent progresser",
+      price: "49.99",
+      features: "Tout le niveau Débutant,Cours stratégiques avancés,Mentorat personnalisé,Tournois hebdomadaires",
+    },
+    {
+      id: 3,
+      name: "Expert",
+      description: "Formation d'excellence pour les joueurs avancés",
+      price: "99.99",
+      features:
+        "Tout le niveau Intermédiaire,Sessions privées avec GM,Analyses personnalisées,Accès aux tournois élites",
+    },
+  ]
+
+  // Utiliser les forfaits de l'API ou les forfaits par défaut
+  const displaySubscriptions = subscriptions.length > 0 ? subscriptions : defaultSubscriptions
+
   return (
-    <div className="flex flex-col min-h-screen">
-      <nav className="bg-white shadow-lg sticky top-0 z-50 backdrop-blur-sm ">
-        <Header />
-      </nav>
+    <div className="min-h-screen bg-gray-50">
+       <CookieConsent
+        location="top"
+        buttonText="J'accepte"
+        declineButtonText="Je refuse"
+        enableDeclineButton
+        cookieName="cookie_consent"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        declineButtonStyle={{ color: "#fff", background: "#888", fontSize: "13px" }}
+        expires={150}
+      >
+        Nous utilisons des cookies pour améliorer votre expérience. Acceptez-vous ?
+      </CookieConsent>
 
-      <main className="flex-grow ">
+      {/* Navigation */}
+      <header className="fixed top-0 left-0 right-0 z-50 px-4 py-3 bg-white/80 shadow-sm backdrop-blur-md">
+        <div className="container mx-auto max-w-7xl">
+          <div className="flex justify-between items-center">
+            <div className="flex items-center">
+              <CastleIcon className="w-6 h-6 text-blue-600" />
+              <h1 className="ml-2 text-lg font-medium">Académie d'Échecs</h1>
+            </div>
+
+            <div className="hidden md:flex space-x-4">
+              <a href="/" className="font-medium">
+                Accueil
+              </a>
+              <a href="/cours" className="font-medium">
+                Nos Cours
+              </a>
+              <a href="/tarifs" className="font-medium">
+                Tarifs
+              </a>
+              <a href="/contact" className="font-medium">
+                Contact
+              </a>
+            </div>
+
+            <div className="flex items-center space-x-2">
+              <a
+                href="/login"
+                className="hidden md:flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <CastleIcon className="mr-2 h-4 w-4" />
+                Connexion
+              </a>
+              <button
+                className="md:hidden p-2 rounded-lg hover:bg-gray-100"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              >
+                <Menu className="h-5 w-5" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 z-40 bg-white pt-16 md:hidden">
+          <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+            <a href="/" className="py-2 font-medium border-b border-gray-100">
+              Accueil
+            </a>
+            <a href="/cours" className="py-2 font-medium border-b border-gray-100">
+              Nos Cours
+            </a>
+            <a href="/tarifs" className="py-2 font-medium border-b border-gray-100">
+              Tarifs
+            </a>
+            <a href="/contact" className="py-2 font-medium border-b border-gray-100">
+              Contact
+            </a>
+            <a
+              href="/login"
+              className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center"
+            >
+              <CastleIcon className="mr-2 h-4 w-4" />
+              Connexion
+            </a>
+          </div>
+        </div>
+      )}
+
+      <main className="pt-16">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* Background Image */}
-          <div className="absolute inset-0 z-0">
-            <img
-              src="/image-2.jpg"
-              alt="Échecs background"
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <section className="relative py-20 lg:py-32 overflow-hidden">
+          <div className="absolute top-[-6rem] right-[-6rem] w-96 h-96 bg-blue-100 rounded-full blur-[70px] opacity-40"></div>
+          <div className="absolute top-1/2 left-[-12rem] w-96 h-96 bg-purple-100 rounded-full blur-[70px] opacity-40"></div>
 
-          {/* Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-white/60 to-blue-100/80 backdrop-blur-sm" />
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-8">
+                <div>
+                  <span className="inline-block mb-4 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-medium">
+                    Académie d'Échecs • Paris
+                  </span>
+                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+                    Devenez un <span className="text-blue-600">Maître des Échecs</span>
+                  </h1>
+                </div>
 
-          {/* Content */}
-          <div className="relative z-10 w-full max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-            <div className="text-center space-y-8">
-              {/* Heading */}
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900">
-                <span>Devenez un </span>
-                <span className="text-blue-600">Maître des Échecs</span>
-              </h1>
+                <p className="text-xl text-gray-600">Découvrez l'art des échecs avec nos experts internationaux</p>
 
-              {/* Description */}
-              <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-700">
-                Découvrez l'art des échecs avec nos experts internationaux et notre méthode
-                d'apprentissage innovante qui s'adapte à votre niveau
-              </p>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button
-                  size="lg"
-                  className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white"
-                >
-                  <div className='flex'>
-                    <Trophy className="w-5 h-5 mr-2" />
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button className="flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-lg text-lg">
+                    <Trophy className="mr-2 h-5 w-5" />
                     Commencer gratuitement
-                  </div>
-                </Button>
-
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="w-full sm:w-auto border-2 border-gray-800 text-gray-800 hover:bg-gray-100"
-                >
-                  <div className='flex'>
-                    <BookOpen className="w-5 h-5 mr-2" />
+                  </button>
+                  <button className="flex items-center px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-colors text-lg">
+                    <BookOpen className="mr-2 h-5 w-5" />
                     Découvrir nos cours
-                  </div>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Section Carte */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gray-900">
-              Notre Localisation
-            </h2>
-            <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-              Retrouvez notre académie au cœur de Paris, à deux pas de la Tour Eiffel
-            </p>
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-100/20 to-transparent pointer-events-none rounded-lg" />
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1644969661273!5m2!1sfr!2sfr"
-                className="w-full h-[500px] rounded-lg shadow-xl ring-1 ring-gray-200"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-              <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-lg max-w-sm">
-                <h3 className="font-bold text-gray-900 mb-2">Académie d'Échecs de Paris</h3>
-                <p className="text-gray-600 text-sm">5 Avenue Anatole France, 75007 Paris</p>
-                <p className="text-gray-600 text-sm">Du lundi au samedi : 9h - 20h</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* Section Galerie Photos */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gray-900">
-              Notre Académie en Images
-            </h2>
-            <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-              Découvrez notre environnement d'apprentissage et nos événements
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Image 1 */}
-              <div className="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
-                <div className="aspect-w-16 aspect-h-9">
-                  <img
-                    src="/image-1.jpg"
-                    alt="Académie d'échecs"
-                    className="object-cover w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-bold text-lg">Salle de Formation</h3>
-                    <p className="text-white/90 text-sm">Un espace moderne pour apprendre</p>
-                  </div>
+                  </button>
                 </div>
               </div>
 
-              {/* Image 2 */}
-              <div className="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
-                <div className="aspect-w-16 aspect-h-9">
+              <div className="relative">
+                <div className="absolute inset-0 -z-10 bg-gradient-to-tr from-blue-100 to-purple-100 blur-[30px] rounded-full scale-125"></div>
+                <div className="rounded-2xl overflow-hidden shadow-2xl">
                   <img
                     src="/image-2.jpg"
-                    alt="Cours d'échecs"
-                    className="object-cover w-full h-full transform transition-transform duration-300 group-hover:scale-105"
+                    alt="Échecs experts"
+                    className="w-full h-auto object-cover"
+                    onError={(e) => {
+                      e.target.src = "/placeholder.svg?height=400&width=600"
+                    }}
                   />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-bold text-lg">Cours Collectifs</h3>
-                    <p className="text-white/90 text-sm">Apprentissage en groupe</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Image 3 */}
-              <div className="group relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
-                <div className="aspect-w-16 aspect-h-9">
-                  <img
-                    src="/image-3.jpg"
-                    alt="Tournoi d'échecs"
-                    className="object-cover w-full h-full transform transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-bold text-lg">Tournois</h3>
-                    <p className="text-white/90 text-sm">Compétitions régulières</p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -163,280 +257,232 @@ const Home = () => {
 
         {/* Section Avantages */}
         <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-900">
-              Pourquoi choisir notre académie ?
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="text-center p-6 hover:bg-blue-50 rounded-xl transition-all duration-300">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Trophy className="w-8 h-8 text-blue-600" />
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="text-center max-w-2xl mx-auto mb-12 space-y-4">
+              <h2 className="text-3xl font-bold text-gray-900">Pourquoi choisir notre académie ?</h2>
+              <p className="text-gray-600">Une approche moderne et efficace pour tous les niveaux</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {[
+                {
+                  icon: Trophy,
+                  title: "Experts Internationaux",
+                  description: "Apprenez avec des Grands Maîtres",
+                },
+                {
+                  icon: Target,
+                  title: "Apprentissage Personnalisé",
+                  description: "Un parcours adapté à votre niveau",
+                },
+                {
+                  icon: Brain,
+                  title: "Méthode Innovante",
+                  description: "Techniques modernes et interactives",
+                },
+              ].map((item, i) => (
+                <div key={i} className="h-full border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+                  <div className="flex flex-col h-full">
+                    <div className="flex items-center justify-center w-16 h-16 bg-blue-50 rounded-xl mb-4">
+                      <item.icon className="w-6 h-6 text-blue-600" />
+                    </div>
+                    <h3 className="text-lg font-medium mb-3 text-gray-900">{item.title}</h3>
+                    <p className="text-gray-600">{item.description}</p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Experts Internationaux</h3>
-                <p className="text-gray-600 text-sm">Apprenez avec des Grands Maîtres et Maîtres Internationaux</p>
-              </div>
-              <div className="text-center p-6 hover:bg-blue-50 rounded-xl transition-all duration-300">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Target className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-2">Apprentissage Personnalisé</h3>
-                <p className="text-gray-600 text-sm">Un parcours adapté à votre niveau et vos objectifs</p>
-              </div>
-              <div className="text-center p-6 hover:bg-blue-50 rounded-xl transition-all duration-300">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Brain className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-bold mb-2">Méthode Innovante</h3>
-                <p className="text-gray-600 text-sm">Techniques modernes et exercices interactifs</p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
-        <CalendarPage />
+
+        {/* Section Galerie */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="text-center max-w-2xl mx-auto mb-12 space-y-4">
+              <h2 className="text-3xl font-bold text-gray-900">Notre académie en images</h2>
+              <p className="text-gray-600">Découvrez notre environnement d'apprentissage</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-4">
+              {[
+                {
+                  image: "/image-1.jpg",
+                  title: "Salle de Formation",
+                  description: "Un espace moderne pour apprendre",
+                },
+                {
+                  image: "/image-2.jpg",
+                  title: "Cours Collectifs",
+                  description: "Apprentissage en groupe",
+                },
+                {
+                  image: "/image-3.jpg",
+                  title: "Tournois",
+                  description: "Compétitions régulières",
+                },
+              ].map((item, i) => (
+                <div key={i} className="relative rounded-xl overflow-hidden group">
+                  <img
+                    src={item.image || `/placeholder.svg?height=300&width=400`}
+                    alt={item.title}
+                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => {
+                      e.target.src = "/placeholder.svg?height=300&width=400"
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <h3 className="text-lg font-medium text-white mb-2">{item.title}</h3>
+                      <p className="text-white/80">{item.description}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Section Forfaits */}
-        <section className="py-16 bg-gray-50" id="forfaits">
-          <div className="container mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900 text-center">
-              Notre Forfait
-            </h2>
-            <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto text-base">
-              Des forfaits adaptés à tous les niveaux, de débutant à expert
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Forfait Débutant */}
-              <Card className="relative border-2 border-blue-100 p-6 bg-white hover:shadow-xl transition-all duration-300">
-                <div className="text-center mb-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Débutant</h3>
-                  <div className="text-3xl font-bold text-gray-900 mb-2">
-                    29€
-                    <span className="text-base font-normal text-gray-600">/mois</span>
-                  </div>
-                  <p className="text-gray-600 text-sm">Parfait pour débuter aux échecs</p>
-                </div>
-                <ul className="space-y-4 mb-8">
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <BookOpen className="w-5 h-5 text-blue-600 mr-3" />
-                    Cours fondamentaux
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Users className="w-5 h-5 text-blue-600 mr-3" />
-                    Forum communautaire
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Award className="w-5 h-5 text-blue-600 mr-3" />
-                    Exercices basiques
-                  </li>
-                </ul>
-                <Button variant="outline" className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50">
-                  Commencer
-                </Button>
-              </Card>
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="text-center max-w-2xl mx-auto mb-12 space-y-4">
+              <h2 className="text-3xl font-bold text-gray-900">Nos Forfaits</h2>
+              <p className="text-gray-600">Choisissez le forfait qui correspond à votre niveau</p>
+            </div>
 
-              {/* Forfait Intermédiaire */}
-              <Card className="relative ring-2 ring-blue-600 transform scale-105 p-6 bg-white hover:shadow-xl transition-all duration-300">
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm">
-                    Plus populaire
-                  </span>
-                </div>
-                <div className="text-center mb-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Intermédiaire</h3>
-                  <div className="text-3xl font-bold text-gray-900 mb-2">
-                    49€
-                    <span className="text-base font-normal text-gray-600">/mois</span>
-                  </div>
-                  <p className="text-gray-600 text-sm">Pour progresser rapidement</p>
-                </div>
-                <ul className="space-y-4 mb-8">
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Star className="w-5 h-5 text-blue-600 mr-3" />
-                    Tout le niveau Débutant
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <BookOpen className="w-5 h-5 text-blue-600 mr-3" />
-                    Cours stratégiques avancés
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Users className="w-5 h-5 text-blue-600 mr-3" />
-                    Mentorat personnalisé
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Trophy className="w-5 h-5 text-blue-600 mr-3" />
-                    Tournois hebdomadaires
-                  </li>
-                </ul>
-                <Button variant="primary" className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                  Choisir ce forfait
-                </Button>
-              </Card>
+            <div className="grid md:grid-cols-3 gap-8">
+              {displaySubscriptions.map((sub, index) => {
+                const features = typeof sub.features === "string" ? sub.features.split(",") : sub.features || []
+                const isRecommended = index === 1
 
-              {/* Forfait Expert */}
-              <Card className="relative border-2 border-blue-100 p-6 bg-white hover:shadow-xl transition-all duration-300">
-                <div className="text-center mb-8">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Expert</h3>
-                  <div className="text-3xl font-bold text-gray-900 mb-2">
-                    99€
-                    <span className="text-base font-normal text-gray-600">/mois</span>
+                return (
+                  <div
+                    key={index}
+                    className={`h-full border rounded-lg overflow-hidden ${
+                      isRecommended ? "border-2 border-blue-600" : "border-gray-200"
+                    }`}
+                  >
+                    {isRecommended && (
+                      <div className="bg-blue-600 text-white text-center py-2">
+                        <p className="font-bold">Recommandé</p>
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <div className="flex flex-col space-y-4">
+                        <h3 className="text-2xl font-bold">{sub.name}</h3>
+                        <p className="text-gray-600">{sub.description}</p>
+
+                        <div className="flex items-baseline">
+                          <span className="text-4xl font-bold">{sub.price}€</span>
+                          <span className="text-gray-500 ml-1">/mois</span>
+                        </div>
+
+                        <hr className="border-gray-200" />
+
+                        <ul className="space-y-3">
+                          {features.map((feature, i) => (
+                            <li key={i} className="flex items-start">
+                              <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+                              <span>{feature.trim()}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="px-6 pb-6">
+                      <button
+                        className={`w-full py-3 px-4 rounded-lg flex items-center justify-center text-lg ${
+                          isRecommended
+                            ? "bg-blue-600 text-white hover:bg-blue-700"
+                            : "border border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600"
+                        } transition-colors`}
+                        onClick={() => handleAddToCart(sub.id)}
+                      >
+                        <ShoppingCart className="mr-2 h-4 w-4" />
+                        Ajouter au panier
+                      </button>
+                    </div>
                   </div>
-                  <p className="text-gray-600 text-sm">Formation d'excellence</p>
-                </div>
-                <ul className="space-y-4 mb-8">
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Star className="w-5 h-5 text-blue-600 mr-3" />
-                    Tout le niveau Intermédiaire
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Trophy className="w-5 h-5 text-blue-600 mr-3" />
-                    Sessions privées avec GM
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Target className="w-5 h-5 text-blue-600 mr-3" />
-                    Analyses personnalisées
-                  </li>
-                  <li className="flex items-center text-gray-600 text-sm">
-                    <Trophy className="w-5 h-5 text-blue-600 mr-3" />
-                    Accès aux tournois élites
-                  </li>
-                </ul>
-                <Button variant="outline" className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50">
-                  Choisir ce forfait
-                </Button>
-              </Card>
+                )
+              })}
             </div>
           </div>
         </section>
-        <div className='p-5'>
-          <PriceCalculator />
-        </div>
 
-
-        {/* Section Contact */}
-        <section className="py-16 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gray-900">
-                Contactez-nous
-              </h2>
-              <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-                Une question ? Envie de commencer ? N'hésitez pas à nous contacter
-              </p>
-
-              <div className="bg-white shadow-xl rounded-2xl p-6 md:p-8">
-                <form className="space-y-6">
-                  {/* Nom et Prénom */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                        Prénom
-                      </label>
-                      <input
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
-                        placeholder="Jean"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                        Nom
-                      </label>
-                      <input
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
-                        placeholder="Dupont"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Email */}
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
-                      placeholder="jean.dupont@example.com"
-                    />
-                  </div>
-
-                  {/* Téléphone */}
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Téléphone
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none"
-                      placeholder="06 12 34 56 78"
-                    />
-                  </div>
-
-                  {/* Message */}
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={5}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 outline-none resize-none"
-                      placeholder="Votre message..."
-                    />
-                  </div>
-
-                  {/* Case à cocher RGPD */}
-                  <div className="flex items-start space-x-3">
-                    <input
-                      type="checkbox"
-                      id="rgpd"
-                      name="rgpd"
-                      className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                    />
-                    <label htmlFor="rgpd" className="text-sm text-gray-500">
-                      J'accepte que mes données soient traitées dans le cadre de ma demande de contact.
-                      Consultez notre politique de confidentialité pour en savoir plus sur la gestion de vos données.
-                    </label>
-                  </div>
-
-                  {/* Bouton d'envoi */}
-                  <button
-                    type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2"
-                  >
-                    <span>Envoyer le message</span>
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+        {/* Footer */}
+        <footer className="bg-gray-900 text-white pt-12 pb-6">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="grid md:grid-cols-4 gap-8 mb-8">
+              <div className="space-y-4">
+                <h3 className="text-lg font-medium">Académie d'Échecs</h3>
+                <p className="text-gray-400">L'excellence de l'enseignement des échecs au cœur de Paris</p>
+                <div className="flex space-x-4">
+                  {[Facebook, Twitter, Instagram].map((Icon, i) => (
+                    <a
+                      key={i}
+                      href="#"
+                      className="bg-gray-800 hover:bg-blue-600 w-8 h-8 rounded-full flex items-center justify-center transition-colors duration-300"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      />
-                    </svg>
-                  </button>
-                </form>
+                      <Icon className="h-4 w-4" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-medium mb-4">Liens Rapides</h3>
+                <div className="flex flex-col space-y-2">
+                  {["Accueil", "Nos Cours", "Tarifs", "Contact"].map((link) => (
+                    <a key={link} href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                      {link}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-medium mb-4">Cours</h3>
+                <div className="flex flex-col space-y-2">
+                  {["Débutants", "Intermédiaires", "Avancés", "Cours Enfants"].map((course) => (
+                    <a key={course} href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                      {course}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-medium mb-4">Contact</h3>
+                <div className="flex flex-col space-y-3">
+                  <div className="flex">
+                    <MapPin className="h-5 w-5 text-blue-400 mr-2 flex-shrink-0" />
+                    <p className="text-gray-400">5 Avenue Anatole France, 75007 Paris</p>
+                  </div>
+                  <div className="flex">
+                    <Phone className="h-5 w-5 text-blue-400 mr-2 flex-shrink-0" />
+                    <p className="text-gray-400">+33 (0)1 23 45 67 89</p>
+                  </div>
+                  <div className="flex">
+                    <Mail className="h-5 w-5 text-blue-400 mr-2 flex-shrink-0" />
+                    <p className="text-gray-400">contact@academie-echecs-paris.fr</p>
+                  </div>
+                </div>
               </div>
             </div>
+
+            <hr className="border-gray-800 my-6" />
+
+            <div className="pt-6 text-center">
+              <p className="text-gray-500 text-sm">
+                © {new Date().getFullYear()} Académie d'Échecs de Paris. Tous droits réservés.
+              </p>
+            </div>
           </div>
-        </section>
+        </footer>
       </main>
-
-      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

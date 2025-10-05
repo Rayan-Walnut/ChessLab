@@ -1,0 +1,2184 @@
+2025-03-25 08:42:53 - Démarrage de la requête get_cart_items
+2025-03-25 08:42:53 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:42:53 - Token décodé avec succès, user_id: 9
+2025-03-25 08:42:53 - ID utilisateur utilisé: 9
+2025-03-25 08:42:53 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:42:53 - Nombre d'articles trouvés: 2
+2025-03-25 08:42:53 - Démarrage de la requête get_cart_items
+2025-03-25 08:42:53 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:42:53 - Token décodé avec succès, user_id: 9
+2025-03-25 08:42:53 - ID utilisateur utilisé: 9
+2025-03-25 08:42:53 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:42:53 - Nombre d'articles trouvés: 2
+2025-03-25 08:42:57 - Démarrage de la requête get_cart_items
+2025-03-25 08:42:57 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:42:57 - Token décodé avec succès, user_id: 9
+2025-03-25 08:42:57 - ID utilisateur utilisé: 9
+2025-03-25 08:42:57 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:42:57 - Nombre d'articles trouvés: 2
+2025-03-25 08:42:57 - Démarrage de la requête get_cart_items
+2025-03-25 08:42:57 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:42:57 - Token décodé avec succès, user_id: 9
+2025-03-25 08:42:57 - ID utilisateur utilisé: 9
+2025-03-25 08:42:57 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:42:57 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:00 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:00 - ID utilisateur utilisé: 9
+2025-03-25 08:43:00 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:00 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:00 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:00 - ID utilisateur utilisé: 9
+2025-03-25 08:43:00 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:00 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:05 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:05 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:05 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:05 - ID utilisateur utilisé: 9
+2025-03-25 08:43:05 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:05 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:05 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:05 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:05 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:05 - ID utilisateur utilisé: 9
+2025-03-25 08:43:05 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:05 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:06 - ID utilisateur utilisé: 9
+2025-03-25 08:43:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:06 - Nombre d'articles trouvés: 2
+2025-03-25 08:43:18 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:18 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:18 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:18 - ID utilisateur utilisé: 9
+2025-03-25 08:43:18 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:18 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:18 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:18 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:18 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:18 - ID utilisateur utilisé: 9
+2025-03-25 08:43:18 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:18 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:18 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:18 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:18 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:18 - ID utilisateur utilisé: 9
+2025-03-25 08:43:18 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:18 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:18 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:18 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:18 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:18 - ID utilisateur utilisé: 9
+2025-03-25 08:43:18 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:18 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:23 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:23 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:23 - ID utilisateur utilisé: 9
+2025-03-25 08:43:23 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:23 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:23 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:23 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:23 - ID utilisateur utilisé: 9
+2025-03-25 08:43:23 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:23 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:24 - ID utilisateur utilisé: 9
+2025-03-25 08:43:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:24 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:24 - ID utilisateur utilisé: 9
+2025-03-25 08:43:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:24 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:24 - ID utilisateur utilisé: 9
+2025-03-25 08:43:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:24 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:24 - ID utilisateur utilisé: 9
+2025-03-25 08:43:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:24 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:31 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:31 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:31 - ID utilisateur utilisé: 9
+2025-03-25 08:43:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:31 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:31 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:31 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:31 - ID utilisateur utilisé: 9
+2025-03-25 08:43:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:31 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:36 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:36 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:36 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:36 - ID utilisateur utilisé: 9
+2025-03-25 08:43:36 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:36 - Nombre d'articles trouvés: 3
+2025-03-25 08:43:36 - Démarrage de la requête get_cart_items
+2025-03-25 08:43:36 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:43:36 - Token décodé avec succès, user_id: 9
+2025-03-25 08:43:36 - ID utilisateur utilisé: 9
+2025-03-25 08:43:36 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:43:36 - Nombre d'articles trouvés: 3
+2025-03-25 08:45:25 - Démarrage de la requête get_cart_items
+2025-03-25 08:45:25 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:25 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:25 - ID utilisateur utilisé: 9
+2025-03-25 08:45:25 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:45:25 - Nombre d'articles trouvés: 3
+2025-03-25 08:45:25 - Démarrage de la requête get_cart_items
+2025-03-25 08:45:25 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:25 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:25 - ID utilisateur utilisé: 9
+2025-03-25 08:45:25 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:45:25 - Nombre d'articles trouvés: 3
+2025-03-25 08:45:25 - Démarrage de la requête remove_from_cart
+2025-03-25 08:45:25 - Données reçues: Array
+(
+    [cart_item_id] => 16
+)
+
+2025-03-25 08:45:25 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:25 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:25 - ID utilisateur utilisé: 9
+2025-03-25 08:45:25 - Requête vérification: SELECT id FROM cart_items WHERE id = '16' AND user_id = '9'
+2025-03-25 08:45:25 - Requête suppression: DELETE FROM cart_items WHERE id = '16' AND user_id = '9'
+2025-03-25 08:45:25 - Succès: Article supprimé du panier
+2025-03-25 08:45:54 - Démarrage de la requête get_cart_items
+2025-03-25 08:45:54 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:54 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:54 - ID utilisateur utilisé: 9
+2025-03-25 08:45:54 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:45:54 - Nombre d'articles trouvés: 2
+2025-03-25 08:45:54 - Démarrage de la requête get_cart_items
+2025-03-25 08:45:54 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:54 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:54 - ID utilisateur utilisé: 9
+2025-03-25 08:45:54 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:45:54 - Nombre d'articles trouvés: 2
+2025-03-25 08:45:55 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:55 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 11
+)
+
+2025-03-25 08:45:55 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:55 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:55 - ID utilisateur utilisé: 9
+2025-03-25 08:45:55 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:55 - Requête mise à jour: UPDATE cart_items SET quantity = '11' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:55 - Succès: Quantité mise à jour
+2025-03-25 08:45:56 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:56 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 111
+)
+
+2025-03-25 08:45:56 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:56 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:56 - ID utilisateur utilisé: 9
+2025-03-25 08:45:56 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:56 - Requête mise à jour: UPDATE cart_items SET quantity = '111' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:56 - Succès: Quantité mise à jour
+2025-03-25 08:45:57 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:57 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1111
+)
+
+2025-03-25 08:45:57 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:57 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:57 - ID utilisateur utilisé: 9
+2025-03-25 08:45:57 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:57 - Requête mise à jour: UPDATE cart_items SET quantity = '1111' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:57 - Succès: Quantité mise à jour
+2025-03-25 08:45:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:59 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1110
+)
+
+2025-03-25 08:45:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:59 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:59 - ID utilisateur utilisé: 9
+2025-03-25 08:45:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Requête mise à jour: UPDATE cart_items SET quantity = '1110' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Succès: Quantité mise à jour
+2025-03-25 08:45:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:59 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1109
+)
+
+2025-03-25 08:45:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:59 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:59 - ID utilisateur utilisé: 9
+2025-03-25 08:45:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Requête mise à jour: UPDATE cart_items SET quantity = '1109' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Succès: Quantité mise à jour
+2025-03-25 08:45:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:59 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1108
+)
+
+2025-03-25 08:45:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:59 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:59 - ID utilisateur utilisé: 9
+2025-03-25 08:45:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Requête mise à jour: UPDATE cart_items SET quantity = '1108' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Succès: Quantité mise à jour
+2025-03-25 08:45:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:45:59 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1107
+)
+
+2025-03-25 08:45:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:45:59 - Token décodé avec succès, user_id: 9
+2025-03-25 08:45:59 - ID utilisateur utilisé: 9
+2025-03-25 08:45:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Requête mise à jour: UPDATE cart_items SET quantity = '1107' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:45:59 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1106
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1106' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1105
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1105' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1104
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1104' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1103
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1103' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1102
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1102' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:00 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:00 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1101
+)
+
+2025-03-25 08:46:00 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:00 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:00 - ID utilisateur utilisé: 9
+2025-03-25 08:46:00 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Requête mise à jour: UPDATE cart_items SET quantity = '1101' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:00 - Succès: Quantité mise à jour
+2025-03-25 08:46:01 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:01 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1100
+)
+
+2025-03-25 08:46:01 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:01 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:01 - ID utilisateur utilisé: 9
+2025-03-25 08:46:01 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Requête mise à jour: UPDATE cart_items SET quantity = '1100' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Succès: Quantité mise à jour
+2025-03-25 08:46:01 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:01 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1099
+)
+
+2025-03-25 08:46:01 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:01 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:01 - ID utilisateur utilisé: 9
+2025-03-25 08:46:01 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Requête mise à jour: UPDATE cart_items SET quantity = '1099' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Succès: Quantité mise à jour
+2025-03-25 08:46:01 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:01 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1098
+)
+
+2025-03-25 08:46:01 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:01 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:01 - ID utilisateur utilisé: 9
+2025-03-25 08:46:01 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Requête mise à jour: UPDATE cart_items SET quantity = '1098' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:01 - Succès: Quantité mise à jour
+2025-03-25 08:46:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:29 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1099
+)
+
+2025-03-25 08:46:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:29 - ID utilisateur utilisé: 9
+2025-03-25 08:46:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:29 - Requête mise à jour: UPDATE cart_items SET quantity = '1099' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:29 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1100
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1100' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1101
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1101' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1102
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1102' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1103
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1103' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1104
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1104' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:30 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1105
+)
+
+2025-03-25 08:46:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:30 - ID utilisateur utilisé: 9
+2025-03-25 08:46:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Requête mise à jour: UPDATE cart_items SET quantity = '1105' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:30 - Succès: Quantité mise à jour
+2025-03-25 08:46:31 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:31 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1106
+)
+
+2025-03-25 08:46:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:31 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:31 - ID utilisateur utilisé: 9
+2025-03-25 08:46:31 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:31 - Requête mise à jour: UPDATE cart_items SET quantity = '1106' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:31 - Succès: Quantité mise à jour
+2025-03-25 08:46:31 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:31 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:31 - ID utilisateur utilisé: 9
+2025-03-25 08:46:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:31 - Nombre d'articles trouvés: 2
+2025-03-25 08:46:31 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:31 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:31 - ID utilisateur utilisé: 9
+2025-03-25 08:46:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:31 - Nombre d'articles trouvés: 2
+2025-03-25 08:46:32 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:32 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1105
+)
+
+2025-03-25 08:46:32 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:32 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:32 - ID utilisateur utilisé: 9
+2025-03-25 08:46:32 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:32 - Requête mise à jour: UPDATE cart_items SET quantity = '1105' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:32 - Succès: Quantité mise à jour
+2025-03-25 08:46:33 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:33 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1104
+)
+
+2025-03-25 08:46:33 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:33 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:33 - ID utilisateur utilisé: 9
+2025-03-25 08:46:33 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Requête mise à jour: UPDATE cart_items SET quantity = '1104' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Succès: Quantité mise à jour
+2025-03-25 08:46:33 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:33 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1103
+)
+
+2025-03-25 08:46:33 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:33 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:33 - ID utilisateur utilisé: 9
+2025-03-25 08:46:33 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Requête mise à jour: UPDATE cart_items SET quantity = '1103' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Succès: Quantité mise à jour
+2025-03-25 08:46:33 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:33 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1102
+)
+
+2025-03-25 08:46:33 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:33 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:33 - ID utilisateur utilisé: 9
+2025-03-25 08:46:33 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Requête mise à jour: UPDATE cart_items SET quantity = '1102' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Succès: Quantité mise à jour
+2025-03-25 08:46:33 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:33 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1101
+)
+
+2025-03-25 08:46:33 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:33 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:33 - ID utilisateur utilisé: 9
+2025-03-25 08:46:33 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Requête mise à jour: UPDATE cart_items SET quantity = '1101' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Succès: Quantité mise à jour
+2025-03-25 08:46:33 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:33 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1100
+)
+
+2025-03-25 08:46:33 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:33 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:33 - ID utilisateur utilisé: 9
+2025-03-25 08:46:33 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Requête mise à jour: UPDATE cart_items SET quantity = '1100' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:33 - Succès: Quantité mise à jour
+2025-03-25 08:46:34 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:34 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1101
+)
+
+2025-03-25 08:46:34 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:34 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:34 - ID utilisateur utilisé: 9
+2025-03-25 08:46:34 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Requête mise à jour: UPDATE cart_items SET quantity = '1101' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Succès: Quantité mise à jour
+2025-03-25 08:46:34 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:34 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1102
+)
+
+2025-03-25 08:46:34 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:34 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:34 - ID utilisateur utilisé: 9
+2025-03-25 08:46:34 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Requête mise à jour: UPDATE cart_items SET quantity = '1102' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Succès: Quantité mise à jour
+2025-03-25 08:46:34 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:34 - Données reçues: Array
+(
+    [cart_item_id] => 17
+    [quantity] => 1103
+)
+
+2025-03-25 08:46:34 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:34 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:34 - ID utilisateur utilisé: 9
+2025-03-25 08:46:34 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Requête mise à jour: UPDATE cart_items SET quantity = '1103' WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:34 - Succès: Quantité mise à jour
+2025-03-25 08:46:35 - Démarrage de la requête remove_from_cart
+2025-03-25 08:46:35 - Données reçues: Array
+(
+    [cart_item_id] => 17
+)
+
+2025-03-25 08:46:35 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:35 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:35 - ID utilisateur utilisé: 9
+2025-03-25 08:46:35 - Requête vérification: SELECT id FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:35 - Requête suppression: DELETE FROM cart_items WHERE id = '17' AND user_id = '9'
+2025-03-25 08:46:35 - Succès: Article supprimé du panier
+2025-03-25 08:46:36 - Démarrage de la requête remove_from_cart
+2025-03-25 08:46:36 - Données reçues: Array
+(
+    [cart_item_id] => 18
+)
+
+2025-03-25 08:46:36 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:36 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:36 - ID utilisateur utilisé: 9
+2025-03-25 08:46:36 - Requête vérification: SELECT id FROM cart_items WHERE id = '18' AND user_id = '9'
+2025-03-25 08:46:36 - Requête suppression: DELETE FROM cart_items WHERE id = '18' AND user_id = '9'
+2025-03-25 08:46:36 - Succès: Article supprimé du panier
+2025-03-25 08:46:40 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:40 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:40 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:40 - ID utilisateur utilisé: 9
+2025-03-25 08:46:40 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:40 - Aucun article trouvé dans le panier
+2025-03-25 08:46:40 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:40 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:40 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:40 - ID utilisateur utilisé: 9
+2025-03-25 08:46:40 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:40 - Aucun article trouvé dans le panier
+2025-03-25 08:46:44 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:44 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:44 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:44 - ID utilisateur utilisé: 9
+2025-03-25 08:46:44 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:44 - Nombre d'articles trouvés: 1
+2025-03-25 08:46:44 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:44 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:44 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:44 - ID utilisateur utilisé: 9
+2025-03-25 08:46:44 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:44 - Nombre d'articles trouvés: 1
+2025-03-25 08:46:47 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:47 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 11
+)
+
+2025-03-25 08:46:47 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:47 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:47 - ID utilisateur utilisé: 9
+2025-03-25 08:46:47 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:47 - Requête mise à jour: UPDATE cart_items SET quantity = '11' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:47 - Succès: Quantité mise à jour
+2025-03-25 08:46:49 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:49 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 111
+)
+
+2025-03-25 08:46:49 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:49 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:49 - ID utilisateur utilisé: 9
+2025-03-25 08:46:49 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:49 - Requête mise à jour: UPDATE cart_items SET quantity = '111' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:49 - Succès: Quantité mise à jour
+2025-03-25 08:46:49 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:49 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 110
+)
+
+2025-03-25 08:46:49 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:49 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:49 - ID utilisateur utilisé: 9
+2025-03-25 08:46:49 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:49 - Requête mise à jour: UPDATE cart_items SET quantity = '110' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:49 - Succès: Quantité mise à jour
+2025-03-25 08:46:50 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:50 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 109
+)
+
+2025-03-25 08:46:50 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:50 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:50 - ID utilisateur utilisé: 9
+2025-03-25 08:46:50 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Requête mise à jour: UPDATE cart_items SET quantity = '109' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Succès: Quantité mise à jour
+2025-03-25 08:46:50 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:50 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 108
+)
+
+2025-03-25 08:46:50 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:50 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:50 - ID utilisateur utilisé: 9
+2025-03-25 08:46:50 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Requête mise à jour: UPDATE cart_items SET quantity = '108' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Succès: Quantité mise à jour
+2025-03-25 08:46:50 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:50 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 107
+)
+
+2025-03-25 08:46:50 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:50 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:50 - ID utilisateur utilisé: 9
+2025-03-25 08:46:50 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Requête mise à jour: UPDATE cart_items SET quantity = '107' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Succès: Quantité mise à jour
+2025-03-25 08:46:50 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:50 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 106
+)
+
+2025-03-25 08:46:50 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:50 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:50 - ID utilisateur utilisé: 9
+2025-03-25 08:46:50 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Requête mise à jour: UPDATE cart_items SET quantity = '106' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:50 - Succès: Quantité mise à jour
+2025-03-25 08:46:51 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:51 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 107
+)
+
+2025-03-25 08:46:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:51 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:51 - ID utilisateur utilisé: 9
+2025-03-25 08:46:51 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:51 - Requête mise à jour: UPDATE cart_items SET quantity = '107' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:51 - Succès: Quantité mise à jour
+2025-03-25 08:46:51 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:46:51 - Données reçues: Array
+(
+    [cart_item_id] => 19
+    [quantity] => 108
+)
+
+2025-03-25 08:46:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:51 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:51 - ID utilisateur utilisé: 9
+2025-03-25 08:46:51 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:51 - Requête mise à jour: UPDATE cart_items SET quantity = '108' WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:51 - Succès: Quantité mise à jour
+2025-03-25 08:46:52 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:52 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:52 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:52 - ID utilisateur utilisé: 9
+2025-03-25 08:46:52 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:52 - Nombre d'articles trouvés: 1
+2025-03-25 08:46:52 - Démarrage de la requête get_cart_items
+2025-03-25 08:46:52 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:52 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:52 - ID utilisateur utilisé: 9
+2025-03-25 08:46:52 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:46:52 - Nombre d'articles trouvés: 1
+2025-03-25 08:46:53 - Démarrage de la requête remove_from_cart
+2025-03-25 08:46:53 - Données reçues: Array
+(
+    [cart_item_id] => 19
+)
+
+2025-03-25 08:46:53 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:46:53 - Token décodé avec succès, user_id: 9
+2025-03-25 08:46:53 - ID utilisateur utilisé: 9
+2025-03-25 08:46:53 - Requête vérification: SELECT id FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:53 - Requête suppression: DELETE FROM cart_items WHERE id = '19' AND user_id = '9'
+2025-03-25 08:46:53 - Succès: Article supprimé du panier
+2025-03-25 08:47:19 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:19 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:19 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:19 - ID utilisateur utilisé: 9
+2025-03-25 08:47:19 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:19 - Aucun article trouvé dans le panier
+2025-03-25 08:47:19 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:19 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:19 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:19 - ID utilisateur utilisé: 9
+2025-03-25 08:47:19 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:19 - Aucun article trouvé dans le panier
+2025-03-25 08:47:20 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:20 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:20 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:20 - ID utilisateur utilisé: 9
+2025-03-25 08:47:20 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:20 - Aucun article trouvé dans le panier
+2025-03-25 08:47:20 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:20 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:20 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:20 - ID utilisateur utilisé: 9
+2025-03-25 08:47:20 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:20 - Aucun article trouvé dans le panier
+2025-03-25 08:47:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:24 - ID utilisateur utilisé: 9
+2025-03-25 08:47:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:24 - Nombre d'articles trouvés: 1
+2025-03-25 08:47:24 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:24 - ID utilisateur utilisé: 9
+2025-03-25 08:47:24 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:24 - Nombre d'articles trouvés: 1
+2025-03-25 08:47:25 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:25 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 2
+)
+
+2025-03-25 08:47:25 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:25 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:25 - ID utilisateur utilisé: 9
+2025-03-25 08:47:25 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:25 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:25 - Succès: Quantité mise à jour
+2025-03-25 08:47:26 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:26 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 1
+)
+
+2025-03-25 08:47:26 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:26 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:26 - ID utilisateur utilisé: 9
+2025-03-25 08:47:26 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:26 - Requête mise à jour: UPDATE cart_items SET quantity = '1' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:26 - Succès: Quantité mise à jour
+2025-03-25 08:47:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:27 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 2
+)
+
+2025-03-25 08:47:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:27 - ID utilisateur utilisé: 9
+2025-03-25 08:47:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Succès: Quantité mise à jour
+2025-03-25 08:47:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:27 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 3
+)
+
+2025-03-25 08:47:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:27 - ID utilisateur utilisé: 9
+2025-03-25 08:47:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Succès: Quantité mise à jour
+2025-03-25 08:47:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:27 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 4
+)
+
+2025-03-25 08:47:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:27 - ID utilisateur utilisé: 9
+2025-03-25 08:47:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:27 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 5
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 6
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '6' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 7
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '7' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 8
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '8' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 9
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '9' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 10
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '10' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:28 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:28 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 11
+)
+
+2025-03-25 08:47:28 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:28 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:28 - ID utilisateur utilisé: 9
+2025-03-25 08:47:28 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Requête mise à jour: UPDATE cart_items SET quantity = '11' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:28 - Succès: Quantité mise à jour
+2025-03-25 08:47:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:29 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 12
+)
+
+2025-03-25 08:47:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:29 - ID utilisateur utilisé: 9
+2025-03-25 08:47:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Requête mise à jour: UPDATE cart_items SET quantity = '12' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Succès: Quantité mise à jour
+2025-03-25 08:47:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:29 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 13
+)
+
+2025-03-25 08:47:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:29 - ID utilisateur utilisé: 9
+2025-03-25 08:47:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Requête mise à jour: UPDATE cart_items SET quantity = '13' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Succès: Quantité mise à jour
+2025-03-25 08:47:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:29 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 14
+)
+
+2025-03-25 08:47:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:29 - ID utilisateur utilisé: 9
+2025-03-25 08:47:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Requête mise à jour: UPDATE cart_items SET quantity = '14' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Succès: Quantité mise à jour
+2025-03-25 08:47:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:29 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 15
+)
+
+2025-03-25 08:47:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:29 - ID utilisateur utilisé: 9
+2025-03-25 08:47:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Requête mise à jour: UPDATE cart_items SET quantity = '15' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Succès: Quantité mise à jour
+2025-03-25 08:47:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:29 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 14
+)
+
+2025-03-25 08:47:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:29 - ID utilisateur utilisé: 9
+2025-03-25 08:47:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:29 - Requête mise à jour: UPDATE cart_items SET quantity = '14' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:30 - Succès: Quantité mise à jour
+2025-03-25 08:47:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:30 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 13
+)
+
+2025-03-25 08:47:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:30 - ID utilisateur utilisé: 9
+2025-03-25 08:47:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:30 - Requête mise à jour: UPDATE cart_items SET quantity = '13' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:30 - Succès: Quantité mise à jour
+2025-03-25 08:47:30 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:47:30 - Données reçues: Array
+(
+    [cart_item_id] => 20
+    [quantity] => 12
+)
+
+2025-03-25 08:47:30 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:30 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:30 - ID utilisateur utilisé: 9
+2025-03-25 08:47:30 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:30 - Requête mise à jour: UPDATE cart_items SET quantity = '12' WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:30 - Succès: Quantité mise à jour
+2025-03-25 08:47:35 - Démarrage de la requête remove_from_cart
+2025-03-25 08:47:35 - Données reçues: Array
+(
+    [cart_item_id] => 20
+)
+
+2025-03-25 08:47:35 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:35 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:35 - ID utilisateur utilisé: 9
+2025-03-25 08:47:35 - Requête vérification: SELECT id FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:35 - Requête suppression: DELETE FROM cart_items WHERE id = '20' AND user_id = '9'
+2025-03-25 08:47:35 - Succès: Article supprimé du panier
+2025-03-25 08:47:37 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:37 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:37 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:37 - ID utilisateur utilisé: 9
+2025-03-25 08:47:37 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:37 - Aucun article trouvé dans le panier
+2025-03-25 08:47:37 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:37 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:37 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:37 - ID utilisateur utilisé: 9
+2025-03-25 08:47:37 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:37 - Aucun article trouvé dans le panier
+2025-03-25 08:47:39 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:39 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:39 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:39 - ID utilisateur utilisé: 9
+2025-03-25 08:47:39 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:39 - Aucun article trouvé dans le panier
+2025-03-25 08:47:39 - Démarrage de la requête get_cart_items
+2025-03-25 08:47:39 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:47:39 - Token décodé avec succès, user_id: 9
+2025-03-25 08:47:39 - ID utilisateur utilisé: 9
+2025-03-25 08:47:39 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:47:39 - Aucun article trouvé dans le panier
+2025-03-25 08:49:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:06 - ID utilisateur utilisé: 9
+2025-03-25 08:49:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:06 - Aucun article trouvé dans le panier
+2025-03-25 08:49:06 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:06 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:06 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:06 - ID utilisateur utilisé: 9
+2025-03-25 08:49:06 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:06 - Aucun article trouvé dans le panier
+2025-03-25 08:49:15 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:15 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:15 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:15 - ID utilisateur utilisé: 9
+2025-03-25 08:49:15 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:15 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:16 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:16 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:16 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:16 - ID utilisateur utilisé: 9
+2025-03-25 08:49:16 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:16 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:40 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:40 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:40 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:40 - ID utilisateur utilisé: 9
+2025-03-25 08:49:40 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:40 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:41 - ID utilisateur utilisé: 9
+2025-03-25 08:49:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:41 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:41 - ID utilisateur utilisé: 9
+2025-03-25 08:49:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:41 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:51 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:51 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:51 - ID utilisateur utilisé: 9
+2025-03-25 08:49:51 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:51 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:51 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:51 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:51 - ID utilisateur utilisé: 9
+2025-03-25 08:49:51 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:51 - Nombre d'articles trouvés: 1
+2025-03-25 08:49:57 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:57 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:57 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:57 - ID utilisateur utilisé: 9
+2025-03-25 08:49:57 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:57 - Nombre d'articles trouvés: 2
+2025-03-25 08:49:57 - Démarrage de la requête get_cart_items
+2025-03-25 08:49:57 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:49:57 - Token décodé avec succès, user_id: 9
+2025-03-25 08:49:57 - ID utilisateur utilisé: 9
+2025-03-25 08:49:57 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:49:57 - Nombre d'articles trouvés: 2
+2025-03-25 08:50:23 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:23 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 2
+)
+
+2025-03-25 08:50:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:23 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:23 - ID utilisateur utilisé: 9
+2025-03-25 08:50:23 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:23 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:23 - Succès: Quantité mise à jour
+2025-03-25 08:50:23 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:23 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 3
+)
+
+2025-03-25 08:50:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:23 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:23 - ID utilisateur utilisé: 9
+2025-03-25 08:50:23 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:23 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:23 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 4
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 5
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 6
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '6' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 7
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '7' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 8
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '8' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 9
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '9' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:24 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:24 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 10
+)
+
+2025-03-25 08:50:24 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:24 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:24 - ID utilisateur utilisé: 9
+2025-03-25 08:50:24 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Requête mise à jour: UPDATE cart_items SET quantity = '10' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:24 - Succès: Quantité mise à jour
+2025-03-25 08:50:26 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:26 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:26 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:26 - ID utilisateur utilisé: 9
+2025-03-25 08:50:26 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:26 - Nombre d'articles trouvés: 2
+2025-03-25 08:50:26 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:26 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:26 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:26 - ID utilisateur utilisé: 9
+2025-03-25 08:50:26 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:26 - Nombre d'articles trouvés: 2
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 9
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '9' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 8
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '8' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 7
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '7' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 6
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '6' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 5
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 4
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:27 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:27 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 3
+)
+
+2025-03-25 08:50:27 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:27 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:27 - ID utilisateur utilisé: 9
+2025-03-25 08:50:27 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:27 - Succès: Quantité mise à jour
+2025-03-25 08:50:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:29 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 2
+)
+
+2025-03-25 08:50:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:29 - ID utilisateur utilisé: 9
+2025-03-25 08:50:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:29 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:29 - Succès: Quantité mise à jour
+2025-03-25 08:50:29 - Démarrage de la requête update_cart_quantity
+2025-03-25 08:50:29 - Données reçues: Array
+(
+    [cart_item_id] => 22
+    [quantity] => 1
+)
+
+2025-03-25 08:50:29 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:29 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:29 - ID utilisateur utilisé: 9
+2025-03-25 08:50:29 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:29 - Requête mise à jour: UPDATE cart_items SET quantity = '1' WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:29 - Succès: Quantité mise à jour
+2025-03-25 08:50:34 - Démarrage de la requête remove_from_cart
+2025-03-25 08:50:34 - Données reçues: Array
+(
+    [cart_item_id] => 22
+)
+
+2025-03-25 08:50:34 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:34 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:34 - ID utilisateur utilisé: 9
+2025-03-25 08:50:34 - Requête vérification: SELECT id FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:34 - Requête suppression: DELETE FROM cart_items WHERE id = '22' AND user_id = '9'
+2025-03-25 08:50:34 - Succès: Article supprimé du panier
+2025-03-25 08:50:35 - Démarrage de la requête remove_from_cart
+2025-03-25 08:50:35 - Données reçues: Array
+(
+    [cart_item_id] => 21
+)
+
+2025-03-25 08:50:35 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:35 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:35 - ID utilisateur utilisé: 9
+2025-03-25 08:50:35 - Requête vérification: SELECT id FROM cart_items WHERE id = '21' AND user_id = '9'
+2025-03-25 08:50:35 - Requête suppression: DELETE FROM cart_items WHERE id = '21' AND user_id = '9'
+2025-03-25 08:50:35 - Succès: Article supprimé du panier
+2025-03-25 08:50:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:41 - ID utilisateur utilisé: 9
+2025-03-25 08:50:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:41 - Nombre d'articles trouvés: 1
+2025-03-25 08:50:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:41 - ID utilisateur utilisé: 9
+2025-03-25 08:50:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:41 - Nombre d'articles trouvés: 1
+2025-03-25 08:50:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:41 - ID utilisateur utilisé: 9
+2025-03-25 08:50:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:41 - Nombre d'articles trouvés: 1
+2025-03-25 08:50:41 - Démarrage de la requête get_cart_items
+2025-03-25 08:50:41 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 08:50:41 - Token décodé avec succès, user_id: 9
+2025-03-25 08:50:41 - ID utilisateur utilisé: 9
+2025-03-25 08:50:41 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 08:50:41 - Nombre d'articles trouvés: 1
+2025-03-25 09:07:58 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:07:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 2
+)
+
+2025-03-25 09:07:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 2
+)
+
+2025-03-25 09:07:58 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:07:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:07:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:07:58 - ID utilisateur utilisé: 9
+2025-03-25 09:07:58 - ID utilisateur utilisé: 9
+2025-03-25 09:07:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:58 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:58 - Succès: Quantité mise à jour
+2025-03-25 09:07:58 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:07:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 3
+)
+
+2025-03-25 09:07:58 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:07:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:07:58 - ID utilisateur utilisé: 9
+2025-03-25 09:07:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:58 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:58 - Succès: Quantité mise à jour
+2025-03-25 09:07:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:07:59 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 4
+)
+
+2025-03-25 09:07:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:07:59 - Token décodé avec succès, user_id: 9
+2025-03-25 09:07:59 - ID utilisateur utilisé: 9
+2025-03-25 09:07:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:59 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:07:59 - Succès: Quantité mise à jour
+2025-03-25 09:08:20 - Démarrage de la requête get_cart_items
+2025-03-25 09:08:20 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:08:20 - Token décodé avec succès, user_id: 9
+2025-03-25 09:08:20 - ID utilisateur utilisé: 9
+2025-03-25 09:08:20 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:08:20 - Nombre d'articles trouvés: 2
+2025-03-25 09:08:20 - Démarrage de la requête get_cart_items
+2025-03-25 09:08:20 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:08:20 - Token décodé avec succès, user_id: 9
+2025-03-25 09:08:20 - ID utilisateur utilisé: 9
+2025-03-25 09:08:20 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:08:20 - Nombre d'articles trouvés: 2
+2025-03-25 09:12:35 - Démarrage de la requête get_cart_items
+2025-03-25 09:12:35 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:35 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:35 - ID utilisateur utilisé: 9
+2025-03-25 09:12:35 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:12:35 - Nombre d'articles trouvés: 2
+2025-03-25 09:12:35 - Démarrage de la requête get_cart_items
+2025-03-25 09:12:35 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:35 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:35 - ID utilisateur utilisé: 9
+2025-03-25 09:12:35 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:12:35 - Nombre d'articles trouvés: 2
+2025-03-25 09:12:56 - Démarrage de la requête get_cart_items
+2025-03-25 09:12:56 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:56 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:56 - ID utilisateur utilisé: 9
+2025-03-25 09:12:56 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:12:56 - Nombre d'articles trouvés: 2
+2025-03-25 09:12:56 - Démarrage de la requête get_cart_items
+2025-03-25 09:12:56 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:56 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:56 - ID utilisateur utilisé: 9
+2025-03-25 09:12:56 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:12:56 - Nombre d'articles trouvés: 2
+2025-03-25 09:12:58 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:12:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 5
+)
+
+2025-03-25 09:12:58 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:58 - ID utilisateur utilisé: 9
+2025-03-25 09:12:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Requête mise à jour: UPDATE cart_items SET quantity = '5' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Succès: Quantité mise à jour
+2025-03-25 09:12:58 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:12:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 4
+)
+
+2025-03-25 09:12:58 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:58 - ID utilisateur utilisé: 9
+2025-03-25 09:12:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Requête mise à jour: UPDATE cart_items SET quantity = '4' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Succès: Quantité mise à jour
+2025-03-25 09:12:58 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:12:58 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 3
+)
+
+2025-03-25 09:12:58 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:58 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:58 - ID utilisateur utilisé: 9
+2025-03-25 09:12:58 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:58 - Succès: Quantité mise à jour
+2025-03-25 09:12:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:12:59 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 2
+)
+
+2025-03-25 09:12:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:59 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:59 - ID utilisateur utilisé: 9
+2025-03-25 09:12:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:59 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:59 - Succès: Quantité mise à jour
+2025-03-25 09:12:59 - Démarrage de la requête update_cart_quantity
+2025-03-25 09:12:59 - Données reçues: Array
+(
+    [cart_item_id] => 23
+    [quantity] => 1
+)
+
+2025-03-25 09:12:59 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:12:59 - Token décodé avec succès, user_id: 9
+2025-03-25 09:12:59 - ID utilisateur utilisé: 9
+2025-03-25 09:12:59 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:59 - Requête mise à jour: UPDATE cart_items SET quantity = '1' WHERE id = '23' AND user_id = '9'
+2025-03-25 09:12:59 - Succès: Quantité mise à jour
+2025-03-25 09:13:01 - Démarrage de la requête get_cart_items
+2025-03-25 09:13:01 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:13:01 - Token décodé avec succès, user_id: 9
+2025-03-25 09:13:01 - ID utilisateur utilisé: 9
+2025-03-25 09:13:01 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:13:01 - Nombre d'articles trouvés: 2
+2025-03-25 09:13:01 - Démarrage de la requête get_cart_items
+2025-03-25 09:13:01 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:13:01 - Token décodé avec succès, user_id: 9
+2025-03-25 09:13:01 - ID utilisateur utilisé: 9
+2025-03-25 09:13:01 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:13:01 - Nombre d'articles trouvés: 2
+2025-03-25 09:13:12 - Démarrage de la requête get_cart_items
+2025-03-25 09:13:12 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:13:12 - Token décodé avec succès, user_id: 9
+2025-03-25 09:13:12 - ID utilisateur utilisé: 9
+2025-03-25 09:13:12 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:13:12 - Nombre d'articles trouvés: 2
+2025-03-25 09:13:12 - Démarrage de la requête get_cart_items
+2025-03-25 09:13:12 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:13:12 - Token décodé avec succès, user_id: 9
+2025-03-25 09:13:12 - ID utilisateur utilisé: 9
+2025-03-25 09:13:12 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:13:12 - Nombre d'articles trouvés: 2
+2025-03-25 09:22:40 - Démarrage de la requête get_cart_items
+2025-03-25 09:22:40 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:22:40 - Token décodé avec succès, user_id: 9
+2025-03-25 09:22:40 - ID utilisateur utilisé: 9
+2025-03-25 09:22:40 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:22:40 - Nombre d'articles trouvés: 2
+2025-03-25 09:22:40 - Démarrage de la requête get_cart_items
+2025-03-25 09:22:40 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5MTY4MSwiZXhwIjoxNzQyODk1MjgxLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.z1SxsC3ll8gw1KWtKGxacb8ruPsJWWXKCQFdPJtTWHM
+2025-03-25 09:22:40 - Token décodé avec succès, user_id: 9
+2025-03-25 09:22:40 - ID utilisateur utilisé: 9
+2025-03-25 09:22:40 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:22:40 - Nombre d'articles trouvés: 2
+2025-03-25 09:43:21 - Démarrage de la requête get_cart_items
+2025-03-25 09:43:21 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:21 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:21 - ID utilisateur utilisé: 9
+2025-03-25 09:43:21 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:43:21 - Nombre d'articles trouvés: 2
+2025-03-25 09:43:21 - Démarrage de la requête get_cart_items
+2025-03-25 09:43:21 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:21 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:21 - ID utilisateur utilisé: 9
+2025-03-25 09:43:21 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:43:21 - Nombre d'articles trouvés: 2
+2025-03-25 09:43:23 - Démarrage de la requête remove_from_cart
+2025-03-25 09:43:23 - Données reçues: Array
+(
+    [cart_item_id] => 23
+)
+
+2025-03-25 09:43:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:23 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:23 - ID utilisateur utilisé: 9
+2025-03-25 09:43:23 - Requête vérification: SELECT id FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:43:23 - Requête suppression: DELETE FROM cart_items WHERE id = '23' AND user_id = '9'
+2025-03-25 09:43:23 - Succès: Article supprimé du panier
+2025-03-25 09:43:23 - Démarrage de la requête remove_from_cart
+2025-03-25 09:43:23 - Données reçues: Array
+(
+    [cart_item_id] => 24
+)
+
+2025-03-25 09:43:23 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:23 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:23 - ID utilisateur utilisé: 9
+2025-03-25 09:43:23 - Requête vérification: SELECT id FROM cart_items WHERE id = '24' AND user_id = '9'
+2025-03-25 09:43:23 - Requête suppression: DELETE FROM cart_items WHERE id = '24' AND user_id = '9'
+2025-03-25 09:43:23 - Succès: Article supprimé du panier
+2025-03-25 09:43:31 - Démarrage de la requête get_cart_items
+2025-03-25 09:43:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:31 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:31 - ID utilisateur utilisé: 9
+2025-03-25 09:43:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:43:31 - Nombre d'articles trouvés: 1
+2025-03-25 09:43:31 - Démarrage de la requête get_cart_items
+2025-03-25 09:43:31 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0Mjg5NTc2MCwiZXhwIjoxNzQyODk5MzYwLCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.mrBhCz31Wm42Vo4AWtNoWIwFfgS2kimNAwEE9-M_bXc
+2025-03-25 09:43:31 - Token décodé avec succès, user_id: 9
+2025-03-25 09:43:31 - ID utilisateur utilisé: 9
+2025-03-25 09:43:31 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-03-25 09:43:31 - Nombre d'articles trouvés: 1
+2025-05-13 13:51:46 - Démarrage de la requête get_cart_items
+2025-05-13 13:51:46 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:46 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:46 - ID utilisateur utilisé: 9
+2025-05-13 13:51:46 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-05-13 13:51:46 - Nombre d'articles trouvés: 1
+2025-05-13 13:51:46 - Démarrage de la requête get_cart_items
+2025-05-13 13:51:46 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:46 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:46 - ID utilisateur utilisé: 9
+2025-05-13 13:51:46 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-05-13 13:51:46 - Nombre d'articles trouvés: 1
+2025-05-13 13:51:47 - Démarrage de la requête update_cart_quantity
+2025-05-13 13:51:47 - Données reçues: Array
+(
+    [cart_item_id] => 25
+    [quantity] => 2
+)
+
+2025-05-13 13:51:47 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:47 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:47 - ID utilisateur utilisé: 9
+2025-05-13 13:51:47 - Requête vérification: SELECT id FROM cart_items WHERE id = '25' AND user_id = '9'
+2025-05-13 13:51:47 - Requête mise à jour: UPDATE cart_items SET quantity = '2' WHERE id = '25' AND user_id = '9'
+2025-05-13 13:51:47 - Succès: Quantité mise à jour
+2025-05-13 13:51:48 - Démarrage de la requête update_cart_quantity
+2025-05-13 13:51:48 - Données reçues: Array
+(
+    [cart_item_id] => 25
+    [quantity] => 3
+)
+
+2025-05-13 13:51:48 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:48 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:48 - ID utilisateur utilisé: 9
+2025-05-13 13:51:48 - Requête vérification: SELECT id FROM cart_items WHERE id = '25' AND user_id = '9'
+2025-05-13 13:51:48 - Requête mise à jour: UPDATE cart_items SET quantity = '3' WHERE id = '25' AND user_id = '9'
+2025-05-13 13:51:48 - Succès: Quantité mise à jour
+2025-05-13 13:51:51 - Démarrage de la requête get_cart_items
+2025-05-13 13:51:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:51 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:51 - ID utilisateur utilisé: 9
+2025-05-13 13:51:51 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-05-13 13:51:51 - Nombre d'articles trouvés: 1
+2025-05-13 13:51:51 - Démarrage de la requête get_cart_items
+2025-05-13 13:51:51 - Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdCIsImlhdCI6MTc0NzE0NDE5NiwiZXhwIjoxNzQ3MTQ3Nzk2LCJ1c2VyX2lkIjoiOSIsImVtYWlsIjoicHJvcmF5YW5lbG1hbnNzb3VyaUBnbWFpbC5jcXNkcXNkcXNkIn0.QTSYR32texd5NOhyYqMBSxqWu1gltc5QM9a5pg_Jkjk
+2025-05-13 13:51:51 - Token décodé avec succès, user_id: 9
+2025-05-13 13:51:51 - ID utilisateur utilisé: 9
+2025-05-13 13:51:51 - Requête SQL: SELECT ci.id, ci.subscription_id, ci.quantity, ci.created_at,
+               s.name, s.description, s.features, s.price
+        FROM cart_items ci
+        JOIN subscriptions s ON ci.subscription_id = s.id
+        WHERE ci.user_id = '9'
+2025-05-13 13:51:51 - Nombre d'articles trouvés: 1
